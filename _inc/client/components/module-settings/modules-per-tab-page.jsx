@@ -80,14 +80,13 @@ export const AllModuleSettings = React.createClass( {
 				return ( <CommentsSettings module={ module } { ...this.props } /> );
 			case 'subscriptions':
 				return ( <SubscriptionsSettings module={ module } { ...this.props } /> );
-			case 'gravatar-hovercards':
-				return ( <GravatarHovercardsSettings module={ module } { ...this.props } /> );
 			case 'likes':
 				return ( <LikesSettings module={ module } { ...this.props } /> );
 			case 'verification-tools':
 				return ( <VerificationToolsSettings module={ module } { ...this.props } /> );
 			case 'sitemaps':
 				return ( <SitemapsSettings module={ module } { ...this.props } /> );
+			case 'gravatar-hovercards':
 			case 'contact-form':
 			case 'latex':
 			case 'shortlinks':
